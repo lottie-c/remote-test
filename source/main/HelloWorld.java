@@ -70,19 +70,6 @@ public class HelloWorld {
 	
 	/*Function prints "Hello World!", storing characters in an
 	 * ArrayList, here get and add run in amortised O(1) time*/
-	
-	/*@SPL(
-			generators = {
-					"genString = cs.cuni.mff.spl.StringGenerator()#generate()"
-			},
-			methods = {
-				"hello4 = individual_project.HelloWorld#hello4(String)"	
-			},
-			formula = {
-					"SELF[genString](2,2) <= hello4[genString](2,2)"
-			}
-			
-		)*/
 	public void hello5(String str){
 		ArrayList<Character> list = new ArrayList<Character>();
 		for (int i = 0; i< str.length(); i++){
