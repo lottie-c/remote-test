@@ -20,8 +20,8 @@ public class Measurement {
                             + "THIS@HEAD:"
                             + "main."
                             + "HelloWorld#hello5(String)",
-                    "hello5tr-1="
-                            + "THIS@tr-1:"
+                    "hello5original="
+                            + "THIS@original:"
                             + "main."
                             + "HelloWorld#hello5(String)"
             },
