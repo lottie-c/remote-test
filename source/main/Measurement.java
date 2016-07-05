@@ -29,7 +29,7 @@ public class Measurement {
                     " for (n {100, 1000, 10000})"
                     + "hello5[generator](n) < hello4[generator](n)",
                     "for (n {10000})"
-                    + "hello5[generator](n) = hello5tr-1[generator](n)"
+                    + "hello5[generator](n) = hello5original[generator](n)"
             })
     
     public static void main(String args[]) {
