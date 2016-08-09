@@ -12,7 +12,7 @@ public class HelloWorld {
 	
 	public HelloWorld(String _num){
 
-		this.num = int.valueOf(_num);
+		this.num = intValue(Integer.valueOf(_num));
 	}
 	
 	/*function prints "Hello World!", a random wait time of
