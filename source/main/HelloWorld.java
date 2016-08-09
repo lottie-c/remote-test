@@ -12,7 +12,7 @@ public class HelloWorld {
 	
 	public HelloWorld(String _num){
 
-		this.num = intValue(Integer.valueOf(_num));
+		this.num = Integer.intValue(Integer.valueOf(_num));
 	}
 	
 	/*function prints "Hello World!", a random wait time of
@@ -85,7 +85,7 @@ public class HelloWorld {
 	}
 	
 	public static void main(String[] args) throws InterruptedException{
-		HelloWorld run = new HelloWorld(3); 
+		HelloWorld run = new HelloWorld('3'); 
 		String string = "Hello World!";
 		//run.hello1();
 		run.hello4(string);
