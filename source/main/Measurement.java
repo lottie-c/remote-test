@@ -15,15 +15,15 @@ public class Measurement {
                     "hello4="
                             + "THIS@HEAD:"
                             + "main."
-                            + "HelloWorld('3')#hello4(String)",
+                            + "HelloWorld(3)#hello4(String)",
                     "hello5="
                             + "THIS@HEAD:"
                             + "main."
-                            + "HelloWorld('3')#hello5(String)",
+                            + "HelloWorld(3)#hello5(String)",
                     "hello5original="
                             + "THIS@original:"
                             + "main."
-                            + "HelloWorld('3')#hello5(String)"
+                            + "HelloWorld(3)#hello5(String)"
             },
             formula = {
                     " for (n {100, 1000, 10000})"
