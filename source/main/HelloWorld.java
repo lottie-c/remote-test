@@ -10,8 +10,9 @@ public class HelloWorld {
 
 	//private String str = "Hello World!";
 	
-	public HelloWorld(int _num){
-		this.num = _num;
+	public HelloWorld(String _num){
+
+		this.num = int.valueOf(_num);
 	}
 	
 	/*function prints "Hello World!", a random wait time of
