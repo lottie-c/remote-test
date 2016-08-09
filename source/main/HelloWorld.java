@@ -6,10 +6,12 @@ import java.util.Random;
 
 public class HelloWorld {
 
+	private int num;
+
 	//private String str = "Hello World!";
 	
-	public HelloWorld(){
-		
+	public HelloWorld(int _num){
+		this.num = _num;
 	}
 	
 	/*function prints "Hello World!", a random wait time of
@@ -62,14 +64,13 @@ public class HelloWorld {
 			list.add(str.charAt(i));
 		}
 		for(int i = 0; i < str.length(); i++){
-		System.out.print(list.get(i));
+		System.out.print(list.get(i)*num);
 		}
 		System.out.print("\n");
 		return;
 	}
 	
-	/*Function prints "Hello World!", storing characters in an
-	 * ArrayList, here get and add run in amortised O(1) time*/
+	
 	public void hello5(String str){
 		ArrayList<Character> list = new ArrayList<Character>();
 		for (int i = 0; i< str.length(); i++){
@@ -83,7 +84,7 @@ public class HelloWorld {
 	}
 	
 	public static void main(String[] args) throws InterruptedException{
-		HelloWorld run = new HelloWorld(); 
+		HelloWorld run = new HelloWorld(3); 
 		String string = "Hello World!";
 		//run.hello1();
 		run.hello4(string);
